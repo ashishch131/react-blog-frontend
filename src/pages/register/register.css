@@ -1,0 +1,67 @@
+.register{
+    width: 100vw;
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+    color: var(--color);
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(68, 67, 67, 0.8)), url("https://cdn.dribbble.com/userupload/6543367/file/original-aafc5becf108d3bf6dd021fed0454427.png?resize=1024x768");
+    background-size: cover;
+    position: relative;
+}
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registerText{
+    font-size: 50px;
+    border: 2px solid gray;
+    padding: 10px 25px;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+.labelText{
+    font-size: 25px;
+}
+.loginInput{
+
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+.lgnBtn{
+    border: none;
+    background-color: tomato;
+    color: var(--color);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.rgstrBtn{
+    border: none;
+    background-color: teal;
+    color: var(--color);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.lgnLink{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

@@ -1,0 +1,55 @@
+.navbar {
+  width: 100vw;
+  height: 50px;
+  background-color: var(--bg);
+  color: var(--color);
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.navLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  justify-content: center;
+}
+.SocialLogo {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+.navCenter {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+}
+.pageLink {
+  font-weight: 300;
+  font-size: 18px;
+}
+.navRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+.navProfilePic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}

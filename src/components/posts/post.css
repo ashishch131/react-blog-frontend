@@ -1,0 +1,13 @@
+.post {
+  flex: 4;
+  color: var(--color);
+}
+.postWrapper {
+
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: #34495e;
+  border-radius: 5px;
+}

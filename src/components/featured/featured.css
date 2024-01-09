@@ -1,0 +1,49 @@
+.featured {
+  width: 100vw;
+  background-color: black;
+  color: var(--colorSoft);
+}
+.featureWrapper {
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px solid #d7dbdd;
+}
+.featureLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  gap: 30px;
+}
+.featureDesc {
+  line-height: 1.5;
+  font-weight: 300;
+  color: #d7dbdd;
+}
+.featureTitle {
+  font-size: 80px;
+}
+.featuredBtn {
+  background: none;
+  border: none;
+  border: 1px solid #d7dbdd;
+  color: #d7dbdd;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: fit-content;
+}
+.featureRight {
+  flex: 1;
+  text-align: right;
+}
+.featureImg {
+  width: 600;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}

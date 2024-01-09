@@ -1,0 +1,68 @@
+.login{
+    width: 100vw;
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+    color: var(--color);
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(68, 67, 67, 0.8)), url("https://cdn.dribbble.com/users/627451/screenshots/3933060/media/4ce746ac2a3ab7c8425897402a2004e4.png?resize=768x576&vertical=center");
+    background-size: cover;
+    position: relative;
+}
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginText{
+    font-size: 50px;
+    border: 2px solid gray;
+    padding: 7px 30px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+   
+}
+.labelText{
+    font-size: 25px;
+}
+.loginInput{
+
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+.loginBtn{
+    border: none;
+    background-color: tomato;
+    color: var(--color);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.registerBtn{
+    border: none;
+    background-color: teal;
+    color: var(--color);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.rgstrLink{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}

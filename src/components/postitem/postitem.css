@@ -1,0 +1,38 @@
+.postItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 500px;
+}
+.postImgCont {
+  width: 500px;
+  max-height: 350px;
+}
+.postImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.postImgInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--colorSoft);
+}
+.postImgCat {
+  display: flex;
+  gap: 10px;
+}
+.postTitle {
+  cursor: pointer;
+}
+.postTitle:hover {
+  color: tomato;
+}
+.postDesc {
+  font-size: 14px;
+  color: var(--colorSoft);
+}

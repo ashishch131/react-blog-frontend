@@ -1,0 +1,16 @@
+.category {
+  width: 100vw;
+  margin-top: 20px;
+  color: white;
+}
+.categoryWrapper {
+  max-width: 100vw;
+  height: 50px;
+  padding: 10px ;
+  background-color: black;
+  display: flex;
+  align-items: center;
+
+justify-content: space-around;
+}
+

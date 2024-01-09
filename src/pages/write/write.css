@@ -1,0 +1,77 @@
+.write {
+  width: 100vw;
+  height: calc(100vh - 50px);
+}
+.writeWrapper {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 220px;
+  margin-top: 50px;
+  position: relative;
+}
+.writeImg {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.writeForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.writeGroup {
+  display: flex;
+  gap: 10px;
+}
+.fa-plus {
+  width: 30px;
+  height: 30px;
+  color: var(--color);
+  border-radius: 50%;
+  border: 2px solid var(--color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.writeInput{
+    width: 800px;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--color);
+    font-size: 20px;
+    padding: 10px;
+}
+.publishBtn{
+    align-self: center;
+    padding: 10px 20px;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    color: var(--color);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.select{
+  width: fit-content;
+  padding: 5px;
+  background: none;
+  color: var(--color);
+  position: absolute;
+  z-index: 2;
+  bottom: 30px;
+ }
+ .option{
+  padding: 5px;
+  background: none;
+  color: var(--bg);
+
+ }
+ 
