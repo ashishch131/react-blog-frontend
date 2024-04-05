@@ -7,6 +7,7 @@ const Write = () => {
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [file, setFile] = useState("");
+  const [categories, setCategories] = useState([])
   const { user } = useContext(Context);
 
   const handleSubmit =async (e) => {
@@ -15,6 +16,7 @@ const Write = () => {
       username: user.username,
       title,
       desc,
+      categories,
     }
     if (file) {
       const data = new FormData();
@@ -35,6 +37,7 @@ const Write = () => {
       console.log(error);
     }
   };
+
 
   return (
     <div className="write">
@@ -69,6 +72,17 @@ const Write = () => {
               onChange={e=> setDesc(e.target.value)}
             ></textarea>
           </div>
+          <select name="Categories" onChange={(e)=> setCategories(e.target.value)} className="catSelect">
+          <option disabled selected >Categories</option>
+            <option value="Music">Music</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Travel">Travel</option>
+            <option value="Food">Food</option>
+            <option value="Coding">Coding</option>
+            <option value="Sports">Sports</option>
+            <option value="Culture">Culture</option>
+            </select>
+         
    
           <button className="publishBtn" type="submit">Publish</button>
         </form>

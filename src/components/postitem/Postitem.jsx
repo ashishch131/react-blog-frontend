@@ -5,6 +5,7 @@ const Postitem = ({ item }) => {
   const PF = "http://localhost:5000/images/";
   return (
     <div className="postItem">
+        <Link to={`/post/${item._id}`} >
       <div className="postImgCont">
       
       <img
@@ -27,12 +28,11 @@ const Postitem = ({ item }) => {
             
       </div>
       </div>
-      <Link to={`/post/${item._id}`} >
         <h1 className="postTitle">{item.title }</h1>
-      </Link>
       <p className="postDesc">{item.desc}
         
       </p>
+      </Link>
         
     </div>
   )

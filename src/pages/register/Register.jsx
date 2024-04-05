@@ -14,8 +14,10 @@ const Register = () => {
     setErr(false);
     try {
       const res = await axios.post("/auth/register", { username, email, password });
+      console.log(res)
      res.data && window.location.replace("/login")
     } catch (error) {
+      console.log(error)
       setErr(true);
     }
   

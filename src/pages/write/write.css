@@ -39,27 +39,26 @@
   justify-content: center;
   cursor: pointer;
 }
-.writeInput{
-    width: 800px;
-    background: none;
-    border: none;
-    outline: none;
-    color: var(--color);
-    font-size: 20px;
-    padding: 10px;
+.writeInput {
+  width: 800px;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--color);
+  font-size: 20px;
+  padding: 10px;
 }
-.publishBtn{
-    align-self: center;
-    padding: 10px 20px;
-    background-color: teal;
-    border: none;
-    border-radius: 5px;
-    color: var(--color);
-    font-weight: bold;
-    cursor: pointer;
-
+.publishBtn {
+  align-self: center;
+  padding: 10px 20px;
+  background-color: teal;
+  border: none;
+  border-radius: 5px;
+  color: var(--color);
+  font-weight: bold;
+  cursor: pointer;
 }
-.select{
+.select {
   width: fit-content;
   padding: 5px;
   background: none;
@@ -67,11 +66,17 @@
   position: absolute;
   z-index: 2;
   bottom: 30px;
- }
- .option{
+}
+.option {
   padding: 5px;
   background: none;
   color: var(--bg);
+}
+.catSelect {
+  width: fit-content;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #85c1e9;
 
- }
- 
+  font-weight: 500;
+}

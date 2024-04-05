@@ -1,0 +1,81 @@
+.aboutPage {
+  width: 100vw;
+
+  margin-top: 50px;
+  color: white;
+}
+.aboutcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.aboutTitle {
+  font-size: 50px;
+  font-weight: 500;
+  word-spacing: 10px;
+}
+.subTitle {
+  font-size: 25px;
+  color: #ecf0f1;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0fadef;
+}
+.illustration {
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+}
+.aboutContent {
+  background-color: #8e44ad;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.intro {
+  width: 50%;
+  font-weight: 300;
+}
+.aboutItems {
+  display: flex;
+
+  gap: 2px;
+  width: 100%;
+}
+.aboutItem {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: white;
+  color: #8e44ad;
+}
+.fa-layer-group {
+  width: fit-content;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.fa-file-code {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

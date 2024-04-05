@@ -10,6 +10,13 @@
   gap: 5px;
   cursor: pointer;
 }
+.catLink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
 .iconContainer {
   width: 30px;
   height: 30px;

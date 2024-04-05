@@ -10,6 +10,8 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import SideBar from "./components/sidebar/SideBar";
 import { useContext } from "react";
 import { Context } from "./context/Context";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 
 
 
@@ -54,6 +56,14 @@ function App() {
         {
           path: "/login",
           element: < Login />,
+        },
+        {
+          path: "/about",
+          element: < About/>,
+        },
+        {
+          path: "/contact",
+          element: < Contact/>,
         },
       ],
     },

@@ -1,0 +1,71 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactWrapper{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    gap: 10px;
+
+}
+.contactLeft{
+flex: 1
+}
+.cntImg{
+    opacity: .8;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient();
+}
+.contactRight{
+    color: white;
+
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 30px;
+text-align: center;
+
+
+
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contactForm>input{
+    padding: 20px 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    outline: none;
+    
+}
+.contactForm>textarea{
+    padding: 20px 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    outline: none;
+}
+.contactSubmit{
+    border: none;
+    border-radius: 5px;
+    background-color: #3498DB;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.contactSubmit:hover{
+background-color: #1F618D;
+
+}
